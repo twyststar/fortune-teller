@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>What does your future hold?</h1>
+      </div>
+      <form id="fortune_survey">
+        <div class="form-group">
+          <p>Have any of the following things happened to you recently?</p>
+          <input type="checkbox" name="lucky" value="bike"> Finding a $20 bill<br>
+          <input type="checkbox" name="lucky" value="car">Driving a car and getting there<br>
+          <input type="checkbox" name="lucky" value="carpool">Winning a contest<br>
+          <input type="checkbox" name="lucky" value="walk">Buying a winning lottery ticket<br>
+          <input type="checkbox" name="lucky" value="bus">Getting a phone number ;)<br>
+          <input type="checkbox" name="lucky" value="train">Finding a four-leaf clover<br>
+          <input type="checkbox" name="lucky" value="streetcar">Beating a video game<br>
+          <input type="checkbox" name="lucky" value="taxi">Hearing your favorite song on the radio<br>
+          <input type="checkbox" name="lucky" value="rideshare">Getting a fax from someone you care<br>
+          <input type="checkbox" name="lucky" value="skateboard">Remembering how to use a rotary phone<br>
+          <input type="checkbox" name="lucky" value="rollerblade">Solving a Rubik's Cube<br>
+          <input type="checkbox" name="lucky" value="scooter">The rain stopped<br>
+          <input type="checkbox" name="lucky" value="other">Passed your code review<br>
+        </div>
+        <div class="form-group">
+          <p>How about any of the following things?</p>
+          <input type="checkbox" name="unlucky" value="bike">Missing a semicolon<br>
+          <input type="checkbox" name="unlucky" value="car">Stepping on a crack<br>
+          <input type="checkbox" name="unlucky" value="carpool">Breaking your mother's back<br>
+          <input type="checkbox" name="unlucky" value="walk">Having a filling fall out<br>
+          <input type="checkbox" name="unlucky" value="bus">Standing room only on the bus<br>
+          <input type="checkbox" name="unlucky" value="train">No room on the bus at all<br>
+          <input type="checkbox" name="unlucky" value="streetcar">No functioning buses in city<br>
+          <input type="checkbox" name="unlucky" value="taxi">It was raining<br>
+          <input type="checkbox" name="unlucky" value="rideshare">Waking up the next day with a bad tattoo<br>
+          <input type="checkbox" name="unlucky" value="skateboard">Skateboarding and falling<br>
+          <input type="checkbox" name="unlucky" value="rollerblade">Getting hair in your food<br>
+          <input type="checkbox" name="unlucky" value="scooter">Seeing a Grimm (for Harry Potter fans)<br>
+          <input type="checkbox" name="unlucky" value="other">Never amounting to anything<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <div  id="lucky-responses">
+        <div class="lucky-response">
+          <p class="well"><b>Uh oh!  Looks like your luck might be running out soon!  Look to the sky on Tuesday at exactly 7:13 PM.  Your future will become crystal clear.</b></p>
+        </div>
+      </div>
+      <br>
+      <div class="well" id="unlucky-responses">
+        <div class="unlucky-response">
+          <p class="well"><b>Your luck is looking up!  All the omens point to fantastic things in your future.  Cash out your savings and buy lotto tickets RIGHT NOW!!!</b></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

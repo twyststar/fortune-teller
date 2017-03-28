@@ -1,0 +1,26 @@
+#lucky-responses {
+  display: none;
+}
+.lucky-response {
+  background-image: url("../img/background.jpg");
+  padding: 60px;
+}
+#unlucky-responses {
+  display: none;
+}
+.unlucky-response {
+  background-image: url(../img/chineseluck.jpg);
+  padding: 60px;
+}
+.jumbotron {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  background-image: url(../img/cards.jpg );
+  font-family: 'Ewert', cursive;
+}
+h1 {
+  background-color: #4c4742;
+  border: 6px solid #d8d5b3;
+  border-style: groove;
+}
